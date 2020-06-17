@@ -3,7 +3,7 @@ This application takes an image either uploaded or captured by a user and provid
 
 
 Created by Hamda Mare
-Images and gifs from: https://lottiefiles.com
+Images and gifs from: https://lottiefiles.com >
 Other sites used: 
                   https://learnappmaking.com/pass-data-between-view-controllers-swift-how-to/
                   https://www.youtube.com/watch?v=Rm61mxcSD4U
