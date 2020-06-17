@@ -26,8 +26,6 @@ class LoadingViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        //let vision = Vision.vision()
-        //textRecognizer = vision.onDeviceTextRecognizer()
         playGifImages(strName: "loading")
         analyzeImage()
         runSearchForImage()
@@ -63,32 +61,6 @@ class LoadingViewController: UIViewController {
         try? VNImageRequestHandler(cgImage: (capturedImage?.cgImage)!, options: [:]).perform([request])
         
     }
-    
-    
-//    func runImageTextRecognition() {
-//        let visionImage =  VisionImage(image: capturedImage!)
-//        textRecognizer.process(visionImage) { (finishedReq, err) in
-//            self.processResult(from: finishedReq, error: err)
-//        }
-//    }
-
-//    func processResult(from text:VisionText?, error:Error?) {
-//        guard let finishedReq = text else{return}
-//
-//        for block in finishedReq.blocks {
-//            for line in block.lines {
-//                for element in line.elements {
-//                    if textInImageOCR == "" {
-//                        self.textInImageOCR = element.text
-//                    }
-//                    // More than one text in the image
-//                    else {
-//                        self.textInImageOCR = String(format:"%@+%@", self.textInImageOCR,element.text)
-//                    }
-//                }
-//            }
-//        }
-//    }
     
     func getSearchString()->String {
         print(classifierID)

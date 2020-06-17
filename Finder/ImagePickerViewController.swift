@@ -22,7 +22,6 @@ class ImagePickerViewController: UIViewController, UIImagePickerControllerDelega
         
         findButton.isHidden = true
         findButton.isEnabled = false
-        
     }
     
     @IBAction func getImage(_ sender: Any) {
