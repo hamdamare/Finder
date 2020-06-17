@@ -4,7 +4,10 @@ This application takes an image either uploaded or captured by a user and provid
 
 Created by Hamda Mare
 
-**Images and gifs**: https://lottiefiles.com
+**Images and gifs**: 
+>    [Gifs](https://lottiefiles.com)
+
+>    [Images](https://logomakr.com)
 
 
 **Other sites used**: 
