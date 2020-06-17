@@ -6,9 +6,6 @@ target 'Finder' do
   #use_frameworks!
 
   # Pods for Finder
-   pod 'Firebase/Core'
-   pod 'Firebase/MLVision'
-   pod 'Firebase/MLVisionTextModel'
    pod "SwiftSoup"  
 target 'FinderTests' do
     inherit! :search_paths
