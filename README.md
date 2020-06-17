@@ -9,7 +9,9 @@ Created by Hamda Mare
 
 **Other sites used**: 
 >    [Passing data between views](https://learnappmaking.com/pass-data-between-view-controllers-swift-how-to/)
+
 >    [Playing gifs](https://www.youtube.com/watch?v=Rm61mxcSD4U)
+
 >    [Capturing images and object recognition](https://www.youtube.com/watch?v=p6GA8ODlnX0)
             
                  
