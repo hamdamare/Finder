@@ -1,0 +1,6 @@
+module Pods_Finder {
+  umbrella header "Pods-Finder-umbrella.h"
+
+  export *
+  module * { export * }
+}
