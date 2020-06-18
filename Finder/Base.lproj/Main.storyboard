@@ -133,41 +133,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bcs-a4-dFr">
-                                <rect key="frame" x="153" y="655" width="109" height="30"/>
-                                <state key="normal" title="Find Again"/>
-                            </button>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5YO-hW-4ni">
-                                <rect key="frame" x="40" y="124" width="334" height="311"/>
+                                <rect key="frame" x="5" y="49" width="369" height="400"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="255" id="6nf-JG-7tT"/>
-                                    <constraint firstAttribute="height" constant="311" id="nSN-wp-7cr"/>
+                                    <constraint firstAttribute="height" constant="400" id="2IX-oY-vcK"/>
+                                    <constraint firstAttribute="width" constant="255" id="6nf-JG-7tT" userLabel="width = 400"/>
                                 </constraints>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Njl-5v-4K8">
-                                <rect key="frame" x="50" y="555" width="344" height="40"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Njl-5v-4K8">
+                                <rect key="frame" x="20" y="487" width="334" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="334" id="Nhn-BM-ssy"/>
                                     <constraint firstAttribute="height" constant="40" id="hnN-tp-GEV"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.67487460374832153" green="0.75386625528335571" blue="0.90304094552993774" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bcs-a4-dFr">
+                                <rect key="frame" x="127" y="557" width="158" height="30"/>
+                                <color key="backgroundColor" red="0.67487460369999996" green="0.75386625529999995" blue="0.90304094550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4o8-CC-Sys"/>
+                                    <constraint firstAttribute="width" constant="150" id="A0V-n3-ppA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Find Again" backgroundImage="rectangle" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.66868732386858121" green="0.7436281868149297" blue="0.90961414524196893" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.67487460374832153" green="0.75386625528335571" blue="0.90304094552993774" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Bcs-a4-dFr" firstAttribute="top" secondItem="Njl-5v-4K8" secondAttribute="bottom" constant="100" id="6De-Cz-LR3"/>
-                            <constraint firstItem="5YO-hW-4ni" firstAttribute="top" secondItem="FCz-5B-5fD" secondAttribute="top" constant="80" id="LfC-I6-Ht3"/>
-                            <constraint firstItem="FCz-5B-5fD" firstAttribute="trailing" secondItem="5YO-hW-4ni" secondAttribute="trailing" constant="40" id="MlK-kb-PSz"/>
-                            <constraint firstItem="Njl-5v-4K8" firstAttribute="top" secondItem="5YO-hW-4ni" secondAttribute="bottom" constant="80" id="NIu-zx-7CV"/>
-                            <constraint firstItem="5YO-hW-4ni" firstAttribute="leading" secondItem="FCz-5B-5fD" secondAttribute="leading" constant="40" id="QzE-Ew-9k9"/>
-                            <constraint firstItem="Njl-5v-4K8" firstAttribute="leading" secondItem="FCz-5B-5fD" secondAttribute="leading" constant="20" id="o4f-mK-m1W"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Njl-5v-4K8" secondAttribute="trailing" constant="20" id="reC-7e-hmB"/>
+                            <constraint firstItem="Njl-5v-4K8" firstAttribute="leading" secondItem="FCz-5B-5fD" secondAttribute="leading" constant="20" id="11p-oH-EZh" userLabel="Product Text.leading = Safe Area.leading + 10"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bcs-a4-dFr" secondAttribute="trailing" constant="110" id="5KO-Ge-MGc"/>
+                            <constraint firstItem="FCz-5B-5fD" firstAttribute="trailing" secondItem="5YO-hW-4ni" secondAttribute="trailing" constant="5" id="6RG-Pj-tzS"/>
+                            <constraint firstAttribute="trailing" secondItem="Njl-5v-4K8" secondAttribute="trailing" constant="20" id="KHF-u8-1wv"/>
+                            <constraint firstItem="FCz-5B-5fD" firstAttribute="trailing" secondItem="5YO-hW-4ni" secondAttribute="trailing" constant="40" id="MlK-kb-PSz" userLabel="Safe Area.trailing = Web View.trailing + 5"/>
+                            <constraint firstItem="5YO-hW-4ni" firstAttribute="top" secondItem="FCz-5B-5fD" secondAttribute="top" constant="5" id="PKk-sh-jy9"/>
+                            <constraint firstItem="5YO-hW-4ni" firstAttribute="leading" secondItem="FCz-5B-5fD" secondAttribute="leading" constant="5" id="RJM-Fy-TvR"/>
+                            <constraint firstItem="Bcs-a4-dFr" firstAttribute="leading" secondItem="FCz-5B-5fD" secondAttribute="leading" constant="120" id="TJc-Fu-eRV"/>
+                            <constraint firstItem="Njl-5v-4K8" firstAttribute="top" secondItem="5YO-hW-4ni" secondAttribute="bottom" constant="38" id="VLb-Bx-Ikt"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Bcs-a4-dFr" secondAttribute="bottom" constant="100" id="mc0-pE-bj3"/>
+                            <constraint firstItem="Bcs-a4-dFr" firstAttribute="top" secondItem="Njl-5v-4K8" secondAttribute="bottom" constant="30" id="vdz-FA-yjM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FCz-5B-5fD"/>
                     </view>
@@ -208,11 +223,11 @@
         <!--Navigation Controller-->
         <scene sceneID="5PR-qa-SIe">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rhs-HP-j2q" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="rhs-HP-j2q" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="2t0-oQ-4nQ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="reZ-V8-MHa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="-54" width="0.0" height="0.0"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.94377285242080688" green="0.63636946678161621" blue="0.64462864398956299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
@@ -229,6 +244,7 @@
     <resources>
         <image name="camera.circle" catalog="system" width="64" height="60"/>
         <image name="magnifyingglass.circle" catalog="system" width="64" height="60"/>
+        <image name="rectangle" catalog="system" width="64" height="46"/>
     </resources>
     <color key="tintColor" red="0.96889311079999996" green="0.77034998369999996" blue="0.79808106140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

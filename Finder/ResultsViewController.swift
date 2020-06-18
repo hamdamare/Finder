@@ -13,6 +13,7 @@ class ResultsViewController: UIViewController {
     var averagePrice:Int = 0
     var searchUrl:URL?
     var itemInImage:String = ""
+    var beginningStr = "Average price of a %@ is %d dollars"
     @IBOutlet var webView: WKWebView!
     @IBOutlet var productText: UITextField!
     
@@ -29,7 +30,7 @@ class ResultsViewController: UIViewController {
     }
     
     func showProductInfo() {
-        let textToShow = String(format:"Average price of %@ is %d dollars", itemInImage,averagePrice)
+        let textToShow = String(format: beginningStr, itemInImage,averagePrice)
         productText.text = textToShow
     }
 }
