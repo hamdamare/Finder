@@ -17,9 +17,6 @@ class ImagePickerViewController: UIViewController, UIImagePickerControllerDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.applyRoundCornerToButtons(findButton)
-        self.applyRoundCornerToButtons(cameraButton)
-        
         findButton.isHidden = true
         findButton.isEnabled = false
     }
@@ -54,12 +51,6 @@ class ImagePickerViewController: UIViewController, UIImagePickerControllerDelega
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true, completion: nil)
-    }
-    
-    // Making buttons looks better
-    func applyRoundCornerToButtons(_ object:AnyObject) {
-        object.layer.cornerRadius = object.frame.size.width/3
-        object.layer?.masksToBounds = true
     }
     
     // Passing image to loading view controller

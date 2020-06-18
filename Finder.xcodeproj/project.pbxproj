@@ -138,6 +138,7 @@
 		2216BB7A23B6BC760056DCD7 /* Finder */ = {
 			isa = PBXGroup;
 			children = (
+				2216BB7D23B6BC760056DCD7 /* SceneDelegate.swift */,
 				225B2A6F2455FB19005C67A2 /* GoogleService-Info.plist */,
 				2216BB8923B6BC780056DCD7 /* Info.plist */,
 				225B2A6D2454ACD5005C67A2 /* Resnet50.mlmodel */,
@@ -148,12 +149,11 @@
 				224B433E24574E5300EC0AB9 /* find.png */,
 				2216BBCB23B9F0F40056DCD7 /* redcam.png */,
 				2216BB7B23B6BC760056DCD7 /* AppDelegate.swift */,
-				2216BB7D23B6BC760056DCD7 /* SceneDelegate.swift */,
-				2216BB8123B6BC760056DCD7 /* Main.storyboard */,
 				2216BB7F23B6BC760056DCD7 /* ViewController.swift */,
 				22E2A2A923BDC31700471467 /* ImagePickerViewController.swift */,
 				22E2A2AB23C06BE300471467 /* LoadingViewController.swift */,
 				226CC3A623C27CC0009D07FE /* ResultsViewController.swift */,
+				2216BB8123B6BC760056DCD7 /* Main.storyboard */,
 				2216BB8623B6BC780056DCD7 /* LaunchScreen.storyboard */,
 				2216BB8423B6BC780056DCD7 /* Assets.xcassets */,
 			);
