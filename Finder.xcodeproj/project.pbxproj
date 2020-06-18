@@ -17,8 +17,8 @@
 		2216BB9323B6BC780056DCD7 /* FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216BB9223B6BC780056DCD7 /* FinderTests.swift */; };
 		2216BB9E23B6BC780056DCD7 /* FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216BB9D23B6BC780056DCD7 /* FinderUITests.swift */; };
 		2216BBC623B9D49A0056DCD7 /* CameraEyes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2216BBC523B9D49A0056DCD7 /* CameraEyes.gif */; };
+		2246EB9A249BF4380010DBFE /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2246EB99249BF4380010DBFE /* swift+gif.swift */; };
 		224B434D245B484E00EC0AB9 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 224B434C245B484E00EC0AB9 /* loading.gif */; };
-		224B434F245B485B00EC0AB9 /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224B434E245B485B00EC0AB9 /* swift+gif.swift */; };
 		225B2A6E2454ACD5005C67A2 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 225B2A6D2454ACD5005C67A2 /* Resnet50.mlmodel */; };
 		225B2A702455FB19005C67A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225B2A6F2455FB19005C67A2 /* GoogleService-Info.plist */; };
 		226CC3A723C27CC0009D07FE /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226CC3A623C27CC0009D07FE /* ResultsViewController.swift */; };
@@ -62,8 +62,8 @@
 		2216BB9D23B6BC780056DCD7 /* FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderUITests.swift; sourceTree = "<group>"; };
 		2216BB9F23B6BC780056DCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2216BBC523B9D49A0056DCD7 /* CameraEyes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CameraEyes.gif; sourceTree = "<group>"; };
+		2246EB99249BF4380010DBFE /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "swift+gif.swift"; path = "/Users/hamdamare/Desktop/ImageFinderApp/Finder/swift+gif.swift"; sourceTree = "<absolute>"; };
 		224B434C245B484E00EC0AB9 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
-		224B434E245B485B00EC0AB9 /* swift+gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
 		225B2A6D2454ACD5005C67A2 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		225B2A6F2455FB19005C67A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		226CC3A623C27CC0009D07FE /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
@@ -132,13 +132,13 @@
 		2216BB7A23B6BC760056DCD7 /* Finder */ = {
 			isa = PBXGroup;
 			children = (
+				2246EB99249BF4380010DBFE /* swift+gif.swift */,
 				2216BB7D23B6BC760056DCD7 /* SceneDelegate.swift */,
 				225B2A6F2455FB19005C67A2 /* GoogleService-Info.plist */,
 				2216BB8923B6BC780056DCD7 /* Info.plist */,
 				225B2A6D2454ACD5005C67A2 /* Resnet50.mlmodel */,
 				2216BBC523B9D49A0056DCD7 /* CameraEyes.gif */,
 				224B434C245B484E00EC0AB9 /* loading.gif */,
-				224B434E245B485B00EC0AB9 /* swift+gif.swift */,
 				2216BB7B23B6BC760056DCD7 /* AppDelegate.swift */,
 				2216BB7F23B6BC760056DCD7 /* ViewController.swift */,
 				22E2A2A923BDC31700471467 /* ImagePickerViewController.swift */,
@@ -398,7 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224B434F245B485B00EC0AB9 /* swift+gif.swift in Sources */,
+				2246EB9A249BF4380010DBFE /* swift+gif.swift in Sources */,
 				22E2A2AA23BDC31700471467 /* ImagePickerViewController.swift in Sources */,
 				2216BB8023B6BC760056DCD7 /* ViewController.swift in Sources */,
 				226CC3A723C27CC0009D07FE /* ResultsViewController.swift in Sources */,
