@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E6E986AEE4DA015D3DBDB60 /* libPods-FinderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C881B4CA8D58E7A755B986B /* libPods-FinderUITests.a */; };
+		2209EF25249C202100EDBEDE /* AppIcon in Resources */ = {isa = PBXBuildFile; fileRef = 2209EF24249C202100EDBEDE /* AppIcon */; };
 		2216BB7C23B6BC760056DCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216BB7B23B6BC760056DCD7 /* AppDelegate.swift */; };
 		2216BB7E23B6BC760056DCD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216BB7D23B6BC760056DCD7 /* SceneDelegate.swift */; };
 		2216BB8023B6BC760056DCD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216BB7F23B6BC760056DCD7 /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		16070A7C0642FB6B4A1F4BCA /* libPods-Finder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Finder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2209EF24249C202100EDBEDE /* AppIcon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon; sourceTree = "<group>"; };
 		2216BB7823B6BC760056DCD7 /* Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2216BB7B23B6BC760056DCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2216BB7D23B6BC760056DCD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		2216BB6F23B6BC760056DCD7 = {
 			isa = PBXGroup;
 			children = (
+				2209EF24249C202100EDBEDE /* AppIcon */,
 				2216BB7A23B6BC760056DCD7 /* Finder */,
 				2216BB9123B6BC780056DCD7 /* FinderTests */,
 				2216BB9C23B6BC780056DCD7 /* FinderUITests */,
@@ -301,6 +304,7 @@
 			files = (
 				2216BB8823B6BC780056DCD7 /* LaunchScreen.storyboard in Resources */,
 				225B2A702455FB19005C67A2 /* GoogleService-Info.plist in Resources */,
+				2209EF25249C202100EDBEDE /* AppIcon in Resources */,
 				2216BBC623B9D49A0056DCD7 /* CameraEyes.gif in Resources */,
 				2216BB8523B6BC780056DCD7 /* Assets.xcassets in Resources */,
 				224B434D245B484E00EC0AB9 /* loading.gif in Resources */,
