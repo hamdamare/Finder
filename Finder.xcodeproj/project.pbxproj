@@ -17,9 +17,6 @@
 		2216BB9323B6BC780056DCD7 /* FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216BB9223B6BC780056DCD7 /* FinderTests.swift */; };
 		2216BB9E23B6BC780056DCD7 /* FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216BB9D23B6BC780056DCD7 /* FinderUITests.swift */; };
 		2216BBC623B9D49A0056DCD7 /* CameraEyes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2216BBC523B9D49A0056DCD7 /* CameraEyes.gif */; };
-		2216BBCC23B9F0F40056DCD7 /* redcam.png in Resources */ = {isa = PBXBuildFile; fileRef = 2216BBCB23B9F0F40056DCD7 /* redcam.png */; };
-		224B433F24574E5400EC0AB9 /* find.png in Resources */ = {isa = PBXBuildFile; fileRef = 224B433E24574E5300EC0AB9 /* find.png */; };
-		224B434B245B474C00EC0AB9 /* newYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 224B434A245B474C00EC0AB9 /* newYellow.png */; };
 		224B434D245B484E00EC0AB9 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 224B434C245B484E00EC0AB9 /* loading.gif */; };
 		224B434F245B485B00EC0AB9 /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224B434E245B485B00EC0AB9 /* swift+gif.swift */; };
 		225B2A6E2454ACD5005C67A2 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 225B2A6D2454ACD5005C67A2 /* Resnet50.mlmodel */; };
@@ -65,9 +62,6 @@
 		2216BB9D23B6BC780056DCD7 /* FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderUITests.swift; sourceTree = "<group>"; };
 		2216BB9F23B6BC780056DCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2216BBC523B9D49A0056DCD7 /* CameraEyes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CameraEyes.gif; sourceTree = "<group>"; };
-		2216BBCB23B9F0F40056DCD7 /* redcam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcam.png; sourceTree = "<group>"; };
-		224B433E24574E5300EC0AB9 /* find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = find.png; sourceTree = "<group>"; };
-		224B434A245B474C00EC0AB9 /* newYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newYellow.png; sourceTree = "<group>"; };
 		224B434C245B484E00EC0AB9 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		224B434E245B485B00EC0AB9 /* swift+gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
 		225B2A6D2454ACD5005C67A2 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
@@ -145,9 +139,6 @@
 				2216BBC523B9D49A0056DCD7 /* CameraEyes.gif */,
 				224B434C245B484E00EC0AB9 /* loading.gif */,
 				224B434E245B485B00EC0AB9 /* swift+gif.swift */,
-				224B434A245B474C00EC0AB9 /* newYellow.png */,
-				224B433E24574E5300EC0AB9 /* find.png */,
-				2216BBCB23B9F0F40056DCD7 /* redcam.png */,
 				2216BB7B23B6BC760056DCD7 /* AppDelegate.swift */,
 				2216BB7F23B6BC760056DCD7 /* ViewController.swift */,
 				22E2A2A923BDC31700471467 /* ImagePickerViewController.swift */,
@@ -309,14 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2216BB8823B6BC780056DCD7 /* LaunchScreen.storyboard in Resources */,
-				224B433F24574E5400EC0AB9 /* find.png in Resources */,
-				224B434B245B474C00EC0AB9 /* newYellow.png in Resources */,
 				225B2A702455FB19005C67A2 /* GoogleService-Info.plist in Resources */,
 				2216BBC623B9D49A0056DCD7 /* CameraEyes.gif in Resources */,
 				2216BB8523B6BC780056DCD7 /* Assets.xcassets in Resources */,
 				224B434D245B484E00EC0AB9 /* loading.gif in Resources */,
 				2216BB8323B6BC760056DCD7 /* Main.storyboard in Resources */,
-				2216BBCC23B9F0F40056DCD7 /* redcam.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

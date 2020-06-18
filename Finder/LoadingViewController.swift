@@ -11,25 +11,23 @@ import AVKit
 import Vision
 import Foundation
 import SwiftSoup
-//import FirebaseMLVision
 
 class LoadingViewController: UIViewController {
     var capturedImage:UIImage?
     var classifierID:String = ""
     var classifierConfidence:float_t?
     var textInImageOCR:String = ""
-    //var textRecognizer: VisionTextRecognizer!
     var searchURL:URL = URL(string: "https://www.amazon.ca")! //default URL
+    var urlFirstPart = "https://www.amazon.ca/s?k="
+    var urlSecondPart = "&ref=nb_sb_noss_2"
     var averageImagePrice:Int = 0
-    var useOCR = true
-    
     @IBOutlet var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         playGifImages(strName: "loading")
         analyzeImage()
         runSearchForImage()
-        
         
         // Starting vc switch timer
         DispatchQueue.main.asyncAfter(deadline: .now() + 5, execute: {
@@ -51,22 +49,15 @@ class LoadingViewController: UIViewController {
 
             guard let results = finishedReq.results as? [VNClassificationObservation] else {return}
             guard let firstObservaton = results.first else {return}
-            
             self.classifierID = firstObservaton.identifier.split{$0 == " "}.map(String.init)[0]
             self.classifierConfidence = firstObservaton.confidence
-            //self.runImageTextRecognition()
-            
-            print(firstObservaton.identifier.split{$0 == " "}.map(String.init)[0])
         })
-        try? VNImageRequestHandler(cgImage: (capturedImage?.cgImage)!, options: [:]).perform([request])
         
+        try? VNImageRequestHandler(cgImage: (capturedImage?.cgImage)!, options: [:]).perform([request])
     }
     
     func getSearchString()->String {
-        print(classifierID)
-        let urlFirstPart = "https://www.amazon.ca/s?k="
-        let urlSecondPart = "&ref=nb_sb_noss_2"
-        if textInImageOCR.count > 1 || self.useOCR == false {
+        if textInImageOCR.count > 1 {
             return String(format:"%@%@%@", urlFirstPart,classifierID,urlSecondPart)
         } else {
             return  String(format:"%@%@+%@%@", urlFirstPart,textInImageOCR,classifierID,urlSecondPart)
@@ -81,12 +72,6 @@ class LoadingViewController: UIViewController {
         let task = URLSession.shared.dataTask(with: searchURL) {(data, response, error) in
             guard let data = data else {
                 print("No data found")
-                if self.useOCR == true {
-                    // OCR causes issues sometime so searching without it
-                    self.useOCR = false
-                    self.analyzeImage()
-                }
-                
                 return
             }
             
@@ -108,7 +93,6 @@ class LoadingViewController: UIViewController {
             } catch {print("Error")}
         }
         
-        self.useOCR = true
         task.resume()
     }
     
