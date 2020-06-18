@@ -48,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		16070A7C0642FB6B4A1F4BCA /* libPods-Finder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Finder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2209EF24249C202100EDBEDE /* AppIcon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon; sourceTree = "<group>"; };
+		2209EF24249C202100EDBEDE /* AppIcon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon; path = ../AppIcon; sourceTree = "<group>"; };
 		2216BB7823B6BC760056DCD7 /* Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2216BB7B23B6BC760056DCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2216BB7D23B6BC760056DCD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,7 +112,6 @@
 		2216BB6F23B6BC760056DCD7 = {
 			isa = PBXGroup;
 			children = (
-				2209EF24249C202100EDBEDE /* AppIcon */,
 				2216BB7A23B6BC760056DCD7 /* Finder */,
 				2216BB9123B6BC780056DCD7 /* FinderTests */,
 				2216BB9C23B6BC780056DCD7 /* FinderUITests */,
@@ -149,6 +148,7 @@
 				226CC3A623C27CC0009D07FE /* ResultsViewController.swift */,
 				2216BB8123B6BC760056DCD7 /* Main.storyboard */,
 				2216BB8623B6BC780056DCD7 /* LaunchScreen.storyboard */,
+				2209EF24249C202100EDBEDE /* AppIcon */,
 				2216BB8423B6BC780056DCD7 /* Assets.xcassets */,
 			);
 			path = Finder;
